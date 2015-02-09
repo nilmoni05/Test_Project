@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.actitime.projectandcustomertest.SampleTestForSh">
+        <methods>
+          <include name="configAfterMeth"/>
+          <include name="createCust"/>
+          <include name="configBeforeMeth"/>
+        </methods>
+      </class> <!-- com.actitime.projectandcustomertest.SampleTestForSh -->
+      <class name="com.actitime.projectandcustomertest.ProjectAndCustomerTest">
+        <methods>
+          <include name="configAfterClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configBeforeClass"/>
+          <include name="configAfterMtd"/>
+        </methods>
+      </class> <!-- com.actitime.projectandcustomertest.ProjectAndCustomerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

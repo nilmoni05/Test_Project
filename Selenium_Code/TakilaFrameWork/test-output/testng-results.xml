@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61059" started-at="2015-01-11T14:52:18Z" finished-at="2015-01-11T14:53:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="61059" started-at="2015-01-11T14:52:18Z" finished-at="2015-01-11T14:53:19Z">
+      <class name="com.actitime.projectandcustomertest.SampleTestForSh">
+        <test-method status="PASS" signature="configBeforeMeth()[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3]" name="configBeforeMeth" is-config="true" duration-ms="0" started-at="2015-01-11T20:23:18Z" finished-at="2015-01-11T20:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMeth -->
+        <test-method status="FAIL" signature="createCust()[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3]" name="createCust" duration-ms="178" started-at="2015-01-11T20:23:18Z" finished-at="2015-01-11T20:23:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.actitime.projectandcustomertest.SampleTestForSh.createCust(SampleTestForSh.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCust -->
+        <test-method status="PASS" signature="configAfterMeth(org.testng.ITestResult)[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3]" name="configAfterMeth" is-config="true" duration-ms="358" started-at="2015-01-11T20:23:18Z" finished-at="2015-01-11T20:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCust status=FAILURE method=SampleTestForSh.createCust()[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMeth -->
+        <test-method status="PASS" signature="configBeforeMeth()[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3]" name="configBeforeMeth" is-config="true" duration-ms="1" started-at="2015-01-11T20:23:19Z" finished-at="2015-01-11T20:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMeth -->
+        <test-method status="PASS" signature="modifyCust()[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3]" name="modifyCust" duration-ms="2" started-at="2015-01-11T20:23:19Z" finished-at="2015-01-11T20:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCust -->
+        <test-method status="PASS" signature="configAfterMeth(org.testng.ITestResult)[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3]" name="configAfterMeth" is-config="true" duration-ms="0" started-at="2015-01-11T20:23:19Z" finished-at="2015-01-11T20:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modifyCust status=SUCCESS method=SampleTestForSh.modifyCust()[pri:0, instance:com.actitime.projectandcustomertest.SampleTestForSh@134a2a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMeth -->
+      </class> <!-- com.actitime.projectandcustomertest.SampleTestForSh -->
+      <class name="com.actitime.projectandcustomertest.ProjectAndCustomerTest">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="configBeforeClass" is-config="true" duration-ms="23997" started-at="2015-01-11T20:22:18Z" finished-at="2015-01-11T20:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="configBeforeMtd" is-config="true" duration-ms="24890" started-at="2015-01-11T20:22:42Z" finished-at="2015-01-11T20:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="createCustomerTest" duration-ms="7048" started-at="2015-01-11T20:23:07Z" finished-at="2015-01-11T20:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="configAfterMtd" is-config="true" duration-ms="359" started-at="2015-01-11T20:23:14Z" finished-at="2015-01-11T20:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMtd -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="configBeforeMtd" is-config="true" duration-ms="1808" started-at="2015-01-11T20:23:14Z" finished-at="2015-01-11T20:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="verifyCustomerDetailsInWebTableTest()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="verifyCustomerDetailsInWebTableTest" duration-ms="1632" started-at="2015-01-11T20:23:16Z" finished-at="2015-01-11T20:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerDetailsInWebTableTest -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="configAfterMtd" is-config="true" duration-ms="669" started-at="2015-01-11T20:23:17Z" finished-at="2015-01-11T20:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMtd -->
+        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:com.actitime.projectandcustomertest.ProjectAndCustomerTest@1580c3a]" name="configAfterClass" is-config="true" duration-ms="1" started-at="2015-01-11T20:23:18Z" finished-at="2015-01-11T20:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+      </class> <!-- com.actitime.projectandcustomertest.ProjectAndCustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
